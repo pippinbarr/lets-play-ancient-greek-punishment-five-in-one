@@ -138,7 +138,7 @@ let Danaids = new Phaser.Class({
 
     // Add instructions
     let instructionStyle = { fontFamily: 'Commodore', fontSize: '24px', fill: '#000', wordWrap: true, align: 'center' };
-    let instructionString = "RAPIDLY CLICK THE\nMOUSE TO FILL YOUR\nBUCKET AND THEN FILL\nTHE BATH TO WASH\nAWAY YOUR SINS!";
+    let instructionString = `RAPIDLY ${verb} THE\n${device} TO FILL YOUR\nBUCKET AND THEN FILL\nTHE BATH TO WASH\nAWAY YOUR SINS!`;
     this.instructionsText = this.add.text(2*this.game.canvas.width/4,100,instructionString,instructionStyle);
     this.instructionsText.setOrigin(0.5);
 

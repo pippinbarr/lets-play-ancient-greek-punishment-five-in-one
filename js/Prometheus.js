@@ -107,7 +107,7 @@ let Prometheus = new Phaser.Class({
 
 
     let instructionStyle = { fontFamily: 'Commodore', fontSize: '24px', fill: '#000', wordWrap: true, align: 'center' };
-    let instructionString = "RAPIDLY CLICK THE\nMOUSE TO WRITHE IN\nPAIN AND DISLODGE\nTHE EAGLE!";
+    let instructionString = `RAPIDLY ${verb} THE\n${device} TO WRITHE IN\nPAIN AND DISLODGE\nTHE EAGLE!`;
     this.instructionsText = this.add.text(this.game.canvas.width/2,100,instructionString,instructionStyle);
     this.instructionsText.setOrigin(0.5);
 

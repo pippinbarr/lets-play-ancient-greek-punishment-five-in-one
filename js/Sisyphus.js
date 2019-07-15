@@ -87,7 +87,7 @@ let Sisyphus = new Phaser.Class({
 
     // Add instructions
     let instructionStyle = { fontFamily: 'Commodore', fontSize: '24px', fill: '#000', wordWrap: true, align: 'center' };
-    let instructionString = "RAPIDLY CLICK THE\nMOUSE TO PUSH\nTHE BOULDER\nUP THE HILL!";
+    let instructionString = `RAPIDLY ${verb} THE\n${device} TO PUSH\nTHE BOULDER\nUP THE HILL!`;
     this.instructionsText = this.add.text(this.game.canvas.width/4,100,instructionString,instructionStyle);
     this.instructionsText.setOrigin(0.5);
 

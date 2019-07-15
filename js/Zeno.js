@@ -108,7 +108,7 @@ let Zeno = new Phaser.Class({
 
     // Add instructions
     let instructionStyle = { fontFamily: 'Commodore', fontSize: '24px', fill: '#000', wordWrap: true, align: 'center' };
-    let instructionString = "RAPIDLY CLICK THE\nMOUSE TO RUN\nTHE RACE!";
+    let instructionString = `RAPIDLY ${verb} THE\n${device} TO RUN\nTHE RACE!`;
     this.instructionsText = this.add.text(this.game.canvas.width/4,100,instructionString,instructionStyle);
     this.instructionsText.setOrigin(0.5);
 

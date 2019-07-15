@@ -151,13 +151,13 @@ let Tantalus = new Phaser.Class({
 
     // - Branch
     let appleInstructionStyle = { fontFamily: 'Commodore', fontSize: '20px', fill: '#000', wordWrap: true, align: 'center' };
-    let appleInstructionString = "RAPIDLY CLICK THE\nMOUSE IN THE UPPER\nHALF TO TAKE THE FRUIT!";
+    let appleInstructionString = `RAPIDLY ${verb} THE\n${device} IN THE UPPER\nHALF TO TAKE THE FRUIT!`;
     this.appleInstructionsText = this.add.text(3*this.game.canvas.width/4,100,appleInstructionString,appleInstructionStyle);
     this.appleInstructionsText.setOrigin(0.5);
 
     // - Water
     let waterInstructionStyle = { fontFamily: 'Commodore', fontSize: '20px', fill: '#fff', wordWrap: true, align: 'center' };
-    let waterInstructionString = "RAPIDLY CLICK THE\nMOUSE IN THE LOWER\nHALF TO DRINK THE WATER!";
+    let waterInstructionString = `RAPIDLY ${verb} THE\n${device} IN THE LOWER\nHALF TO DRINK THE WATER!`;
     this.waterInstructionsText = this.add.text(400,360,waterInstructionString,waterInstructionStyle);
     this.waterInstructionsText.setOrigin(0.5);
 
