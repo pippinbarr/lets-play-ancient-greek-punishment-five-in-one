@@ -100,6 +100,7 @@ let Sisyphus = new Phaser.Class({
     setInterval(() => {
       if (this.clicks > 1 && this.inputEnabled) {
         this.inputSuccess = true;
+        this.instructionsText.visible = false;
       }
       else {
         this.inputSuccess = false;

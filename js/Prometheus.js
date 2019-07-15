@@ -108,8 +108,8 @@ let Prometheus = new Phaser.Class({
 
     let instructionStyle = { fontFamily: 'Commodore', fontSize: '24px', fill: '#000', wordWrap: true, align: 'center' };
     let instructionString = "RAPIDLY CLICK THE\nMOUSE TO WRITHE IN\nPAIN AND DISLODGE\nTHE EAGLE!";
-    this.flyInstructionsText = this.add.text(this.game.canvas.width/2,100,instructionString,instructionStyle);
-    this.flyInstructionsText.setOrigin(0.5);
+    this.instructionsText = this.add.text(this.game.canvas.width/2,100,instructionString,instructionStyle);
+    this.instructionsText.setOrigin(0.5);
 
 
     this.children.getChildren().forEach((c) => { c.alpha = 0.2 });
@@ -124,6 +124,7 @@ let Prometheus = new Phaser.Class({
     setInterval(() => {
       if (this.clicks > 1 && this.inputEnabled) {
         this.inputSuccess = true;
+        this.instructionsText.visible = false;
       }
       else {
         this.inputSuccess = false;
