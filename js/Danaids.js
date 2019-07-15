@@ -135,6 +135,13 @@ let Danaids = new Phaser.Class({
     this.informationText = this.add.text(this.game.canvas.width - 350,320,informationString,informationStyle);
     this.informationText.setOrigin(0);
 
+
+    // Add instructions
+    let instructionStyle = { fontFamily: 'Commodore', fontSize: '24px', fill: '#000', wordWrap: true, align: 'center' };
+    let instructionString = "RAPIDLY CLICK THE\nMOUSE TO FILL YOUR\nBUCKET AND THEN FILL\nTHE BATH TO WASH\nAWAY YOUR SINS!";
+    this.instructionsText = this.add.text(2*this.game.canvas.width/4,100,instructionString,instructionStyle);
+    this.instructionsText.setOrigin(0.5);
+
     this.children.getChildren().forEach((c) => { c.alpha = 0.2 });
 
     this.clicks = 0;

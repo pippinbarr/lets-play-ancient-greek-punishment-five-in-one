@@ -106,6 +106,12 @@ let Zeno = new Phaser.Class({
     this.halfWayText = this.add.text(this.ZENO_HALFWAY_X, 82*4, `${this.halfway}m`, markerStyle);//.setOrigin(0.5);
     this.finishText = this.add.text(this.ZENO_FINISH_X, 82*4, `${this.finish}m`, markerStyle);//.setOrigin(0.5);
 
+    // Add instructions
+    let instructionStyle = { fontFamily: 'Commodore', fontSize: '24px', fill: '#000', wordWrap: true, align: 'center' };
+    let instructionString = "RAPIDLY CLICK THE\nMOUSE TO RUN\nTHE RACE!";
+    this.instructionsText = this.add.text(this.game.canvas.width/4,100,instructionString,instructionStyle);
+    this.instructionsText.setOrigin(0.5);
+
     this.children.getChildren().forEach((c) => { c.alpha = 0.2 });
 
     this.clicks = 0;

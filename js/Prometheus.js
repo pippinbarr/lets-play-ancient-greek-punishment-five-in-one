@@ -105,6 +105,13 @@ let Prometheus = new Phaser.Class({
     // Tween in the eagle
     this.arrive();
 
+
+    let instructionStyle = { fontFamily: 'Commodore', fontSize: '24px', fill: '#000', wordWrap: true, align: 'center' };
+    let instructionString = "RAPIDLY CLICK THE\nMOUSE TO WRITHE IN\nPAIN AND DISLODGE\nTHE EAGLE!";
+    this.flyInstructionsText = this.add.text(this.game.canvas.width/2,100,instructionString,instructionStyle);
+    this.flyInstructionsText.setOrigin(0.5);
+
+
     this.children.getChildren().forEach((c) => { c.alpha = 0.2 });
     this.night.alpha = 0;
     this.darkRock.alpha = 0;
