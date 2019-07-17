@@ -137,7 +137,9 @@ let Zeno = new Phaser.Class({
   },
 
   updateZeno: function () {
-    if (this.inputEnabled && this.zeno.x >= this.ZENO_HALFWAY_X) {
+    if (!this.inputEnabled) return;
+
+    if (this.zeno.x >= this.ZENO_HALFWAY_X) {
       this.zeno.x = this.ZENO_HALFWAY_X;
       this.inputEnabled = false;
       this.zeno.anims.play('zeno_victory');
@@ -151,7 +153,7 @@ let Zeno = new Phaser.Class({
       }
       this.zeno.x += this.speed;
     }
-    else if (this.inputEnabled) {
+    else {
       this.zeno.anims.play('zeno_idle');
     }
   },
