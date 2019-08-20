@@ -1,8 +1,12 @@
-# Let's Play: Ancient Greek Punishment: Five in One
+# Let's Play: Ancient Greek Punishment: Five-in-One
 
-_Let's Play: Ancient Greek Punishment: Five in One_ is yet another new edition in the _Let's Play: Ancient Greek Punishment_ series, focusing on a retelling of five (kind of) mythological punishments. In _Five in One_ you live the excitement of all five punishments at the same time.
+_It's pushing! It's running! It's reaching! It's suffering! It's five ancient greek punishments for the effort of one! It's everything!_
 
-#### [Play _Let's Play: Ancient Greek Punishment: Five in One_](https://pippinbarr.github.io/lets-play-ancient-greek-punishment-five-in-one)
+---
+
+_Let's Play: Ancient Greek Punishment: Five-in-One_ is yet another new edition in the _Let's Play: Ancient Greek Punishment_ series, focusing on a retelling of five (kind of) mythological punishments. In _Five in One_ you live the excitement of all five punishments at the same time.
+
+#### [Play _Let's Play: Ancient Greek Punishment: Five-in-One_](https://pippinbarr.github.io/lets-play-ancient-greek-punishment-five-in-one) (Mobile and desktop browsers)
 
 #### Read the [Press kit](https://github.com/pippinbarr/lets-play-ancient-greek-punishment-five-in-one/blob/master/press/README.md) for press information
 #### Read the [Process documentation](https://github.com/pippinbarr/lets-play-ancient-greek-punishment-five-in-one/blob/master/process/README.md) for process journal, to do list, and related work
@@ -18,6 +22,8 @@ _Let's Play: Ancient Greek Punishment: Five in One_ is yet another new edition i
 6. [Let's Play: Ancient Greek Punishment: UI Edition](http://pippinbarr.github.io/lets-play-ancient-greek-punishment-ui-edition/) (2019)
 7. [Let's Play: Ancient Greek Punishment: Chess Edition](http://pippinbarr.github.io/lets-play-ancient-greek-punishment-chess-edition/) (2019)
 8. [Let's Play: Ancient Greek Punishment: The Twine](http://pippinbarr.github.io/lets-play-ancient-greek-punishment-the-twine/) (2019)
+9. [Let's Play: Ancient Greek Punishment: Bitsy Demake](http://pippinbarr.github.io/lets-play-ancient-greek-punishment-bitsy-demake/) (2019)
+
 
 ---
 
