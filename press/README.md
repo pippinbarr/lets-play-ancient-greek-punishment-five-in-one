@@ -53,10 +53,6 @@ Honestly it's probably faster to just play actual game.
 ![Everything](images/everything.png)  
 _It's everything._
 
-## Press
-
-- Coming soon?
-
 ## Additional Links
 
 - [Process documentation of _Let's Play: Ancient Greek Punishment: Five-in-One](https://github.com/pippinbarr/lets-play-ancient-greek-punishment-five-in-one/blob/master/process/README.md)
